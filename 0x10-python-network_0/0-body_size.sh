@@ -1,3 +1,3 @@
 #!/bin/bash
-# Bash script takes URL, sends request to URL & displays size of body response
+# send a request to an URL with curl, and displays the size of the body of the response
 curl -s "$1" | wc -c
